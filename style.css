@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+/*------------------Menu-------------------------------*/
+.header-container{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+.a{
+    color: white;
+}
+
+.logo{
+    width: 150px;
+    padding-left: 2%;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.menu-list{
+    display: none;  
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    padding: 10px 10px;
+    font-family: "Poppins", sans-serif;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+    
+    flex: 1;
+    text-align: right;
+
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    margin-left: 40px;
+}
+
+
+nav a{
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+}
+/*------------------about-------------------------------*/
+#about
+{
+    padding: 25px 0;
+    color: #000;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.about-col-1{
+    flex-basis: 35%;
+    margin-left: 25px;
+}
+.about-col-1 h1{
+    font-size: 60px;
+    font-weight: 600;
+    color:black;
+}
+.about-col-2 img{
+    width: 700px;
+    border-radius: 15px;
+
+}
+.about-col-2{
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color:black;
+    margin-left: 25px;
+}
+/*-------------------button------------------------------*/
+.button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  /*---------------------flex-img----------------------------*/
+  #fleximg{
+    padding: 50px , 0;
+    margin-top: 25px;
+}
+.book-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.book{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.book img{
+    margin: 20px;
+    width: 400px;
+}
